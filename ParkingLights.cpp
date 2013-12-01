@@ -4,7 +4,7 @@ void ParkLights(int nLightSensor, unsigned long ulTime, int nParkingLights)
 {
 
     //Timing
-    static unsigned long ulPrevTime = 0;
+    static unsigned long ulPrevTime = 5000;
     int nCheckInterval = 5000;
 
     //If time between checks has passed
