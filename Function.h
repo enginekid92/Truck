@@ -7,4 +7,4 @@ void DomeLight(unsigned long ulTime, int nIgnState, int nHatch, int nLeftDoor, i
 void AccPower(int nHatch, int nLeftDoor, int nRightDoor, int nACCPower);
 int Timer1(int nIgnState);
 
-#endif // Functions_h
+#endif 
